@@ -4742,3 +4742,13 @@ input, select, textarea {
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-card {
+  flex: 1 1 calc(50% - 20px); /* Makes 2 cards per row */
+  box-sizing: border-box;
+}
